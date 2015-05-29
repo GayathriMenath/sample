@@ -1,0 +1,14 @@
+---
+name: new
+description: sample
+keywords: postgres
+type: Default
+documentation: Docum
+images:
+- name: paintedfox_postgresql_latest
+  source: paintedfox/postgresql:latest
+  type: Default
+  ports:
+  - host_port: '5432'
+    container_port: '5432'
+    proto: TCP
